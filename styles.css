@@ -1,0 +1,74 @@
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+
+.container {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  flex: 100%;
+  flex-direction: column;
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex: 100%;
+}
+
+.content {
+  margin: 10px;
+}
+
+.content-img {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 0 10px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  flex: 100%;
+}
+
+.comment-input {
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+}
+
+img.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: blueviolet;
+  margin: 10px;
+  object-fit: cover;
+}
+
+p.subtitle {
+  line-height: 0cm;
+}
